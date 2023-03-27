@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+
+    height: 50px;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+    height: fit-content;
+    
+}
+
+p {
+ text-align:justify;
+ width: 40%;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 20px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.vrhsajta>ul>li {
+    display: inline;
+    color: white;
+    border-right: 1px, solid, white;
+   
+};
+
+#loremtextbottom {
+    background-color: rgb(105, 17, 17);
+}
+
+.vrhsajta {
+    background-color: black;
+    text-align: center;
+}
+
+.vrhsajta>ul>li>a {
+    color: rgb(243, 243, 243);
+    margin: 70px;
+    
+}
+.mission>ul>li {
+    color: black;
+    text-align: center;
+}
+
+.mission>h1 {
+    text-align: center;
+}
+
+.users {
+    margin-left: 10%;
+    text-align: center;
+    background-color:#ffe4b9 ;
+    margin: 0 auto;
+
+    
+}
+
+.users>table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+.bit>p {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.mission {
+    padding-bottom: 50px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+.users table {
+    
+    background-color: #fbb03b;
+    border-radius: 10px;
+    border-spacing: 0 10px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+h3{
+    text-align: center;
+}
+
+.users tr.prvired {
+    background-color: #fbb03b;
+}
+
+.users tr {
+    background-color: white;
+}
+
+.users th {
+    background-color: #fbb03b;
+}
+
+.users td {
+    padding: 25px;
+}
+
+.dotgreen {
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.dotred {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.users table img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    
+}
+
+.users td {
+    text-align: start;
+}
+
+.users a {
+    text-decoration: none;
+    background-color: rgb(80, 151, 151);
+    padding: 8px;
+    color: white;
+    border-radius: 20px;
+}
+.mission ul {
+    list-style-position: inside;
+    list-style-type: disclosure-closed;
+}

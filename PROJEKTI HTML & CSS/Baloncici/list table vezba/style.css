@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+.header ul {
+  text-align: center;
+}
+
+.header li {
+  display: inline;
+  padding: 0 50px;
+  border-right: 1px solid white;
+}
+
+.header li.last-child {
+  border: none;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.our-story{ 
+  padding: 50px 30%;
+  /* width: 40%;
+  margin: 50px auto; */
+}
+
+.our-story h2, .users h2, .our-mission h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.our-story p {
+  text-align: justify;
+}
+
+.users {
+  background-color: #ffbd5669;
+  padding: 50px 20%;
+}
+
+.users table {
+  width: 100%;
+  background-color: #fbb03b;
+  border-radius: 10px;
+  border-spacing: 0 10px;
+}
+
+.users tr.first-row {
+  background-color: #fbb03b;
+}
+
+.users tr.first-row th {
+  padding-top: 20px;
+  padding-left: 8px;
+  text-align: left;
+}
+
+.users tr {
+  background-color: white;
+}
+
+.users td {
+  padding: 20px 10px;
+}
+
+.users span.dot {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.users span.green {
+  background-color: green;
+}
+
+.users span.red {
+  background-color: red;
+}
+
+.users span.yellow {
+  background-color: yellow;
+}
+
+.users table a {
+  text-decoration: none;
+  background-color: lightskyblue;
+  color: white;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+.users table img {
+  height: 35px;
+  border-radius: 50%;
+}
+
+.our-mission {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.our-mission ul {
+  list-style-position: inside;
+  list-style-type: disclosure-closed;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}

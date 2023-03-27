@@ -1,0 +1,85 @@
+.logo {
+  background-color: rgb(154, 250, 89);
+}
+.logo img {
+  width: 70px;
+  height: 70px;
+  opacity: 0.8;
+}
+.logo h3 {
+  vertical-align: super;
+  display: inline;
+  color: rgb(19, 131, 9);
+  margin: 30px;
+  font-size: 36px;
+}
+ul.lista {
+  background-color: rgba(36, 133, 17, 0.699);
+}
+ul.lista li {
+  display: inline;
+  margin: 15px;
+  color: rgb(255, 255, 255);
+}
+.sredina {
+  margin: 0 auto;
+  width: 900px;
+  border-bottom: 1px solid green;
+}
+.sredina img {
+  width: 24%;
+  vertical-align: top;
+}
+
+h1 {
+  border-left: 3px solid green;
+  margin: 15px;
+  padding-left: 15px;
+}
+p, h2 {
+  margin: 15px;
+  padding: 15px;
+}
+#froggytext {
+  border-bottom: 1px solid green;
+}
+
+.span1 {
+  color: darkgreen;
+}
+.span2 {
+  color: red;
+}
+#sredina2 {
+  margin: 0 auto;
+  width: 900px;
+  padding: 5px;
+}
+
+#email, #comments {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#button {
+  padding: 10px 30px;
+  border: none;
+  color: rgb(96, 221, 96);
+  background-color: green;
+  border-radius: 8px;
+}
+#sredina3 {
+  padding: 18px;
+  background-color:rgb(19, 131, 9) ;
+  margin-top: 10px;
+}
+
+#sredina3 img{
+  width: 60px;
+  border-radius: 20%;
+}
+
+#boja1 {
+  background-color: transparent;
+  border-radius: 6px;
+}

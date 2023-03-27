@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.kutija {
+  background-color: aqua;
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.kocka1 {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+}
+
+.kocka2 {
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+  align-self: center;
+  order:1;
+}
+
+.kocka3 {
+  background-color: blueviolet;
+  width: 50px;
+  height: 50px;
+  align-self: self-end;
+}

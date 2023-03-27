@@ -1,0 +1,64 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+body {
+    height: 80vh;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    /* background-image: url("igrice2.jpg"); */
+    
+}
+
+.header {
+   height: 80px;
+   background-color: rgb(30, 76, 145);
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 22px;
+}
+ 
+a {
+    color: white;
+}
+
+.footer {
+    height: 80px;
+    background-color: rgb(30, 76, 145);
+    margin-top: auto;
+    text-align: center;
+    padding-top: 20px;
+    font-size: small;
+}
+
+.loginbtn {
+    width: 120px;
+    height: 40px;
+}
+
+body > img {
+padding: 10px;
+
+}
+
+main img {
+    height: 380px;
+    width: 380px;
+    border-style:dashed;
+}
+
+.mainDivStyle {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 80px;
+    justify-content: space-evenly;
+}
+
+

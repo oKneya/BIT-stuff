@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 3px;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url("http://trumpwallpapers.com/wp-content/uploads/Rick-And-Morty-Wallpaper-04-1920-x-1080.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+body#single-character {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ body#single-character > div.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border: 5px solid rgb(85, 243, 92);
+    
+}
+
+body#single-character ul {
+    list-style-position: inside;
+    height: 200px;
+    overflow-y: scroll;
+    background-color: rgb(85, 243, 92);
+} 
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.characters {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+    margin: 50px auto;
+}
+
+.character {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 18px;
+    cursor: pointer;
+    border: 5px solid rgb(22, 1, 16);
+    background-color: aliceblue;
+    
+}
+
+.character:hover {
+    border: 5px solid rgb(85, 243, 92);
+}
+
+.character img {
+    width: 100%;
+    height: 92%;
+    border-radius: 12px;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+}
+
+.character-Info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(122, 11, 116);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 10px;
+    opacity: 0;
+    border-radius: 16px;
+}
+
+
+.character-Info:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+}
+
+header {
+    background-color: rgb(244, 252, 139);
+    text-align: center;
+    height: 70px;
+    font-size: x-large;
+    padding-top: 15px;
+}
+
+footer {
+    background-color: azure;
+    text-align: center;
+    height: 70px;
+    font-size: x-large;
+    padding: 15px;
+    background-color: rgb(244, 252, 139);
+}
+
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;  15% from the top and centered
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;  Could be more or less, depending on screen size 
+  } 
+
+  /* .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } */
+
+  .card {
+    width: 300px;
+    height: 250px;
+    background-color: aliceblue;
+    position: absolute;
+
+  }
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

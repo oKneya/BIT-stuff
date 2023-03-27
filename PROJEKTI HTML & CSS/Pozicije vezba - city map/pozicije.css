@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./Slike/bgd2.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+}
+
+aside {
+  width: 470px;
+  height: 100vh;
+  position: fixed;
+  background-color: rgb(4, 4, 231);
+  margin-top: 70px;
+}
+
+header img {
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+aside h1 {
+  color: white;
+  padding-top: 40px;
+  text-align: center;
+}
+
+form {
+  margin-left: 40px;
+}
+
+form select {
+  width: 280px;
+  height: 28px;
+  margin-top: 15px;
+}
+
+p {
+  color: white;
+}
+
+.pricerange {
+  margin-top: 50px;
+}
+
+.lookingfor {
+  color: white;
+}
+
+.search input {
+  width: 380px;
+  height: 35px;
+  margin-top: 180px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+}
+
+
+.prvi_box {
+  padding-left: 450px;
+  padding-top: 130px;
+  
+}
+
+.prvi_box>div {
+    background-color: rgb(255, 255, 255);
+    padding: 35px;
+    margin: 50px ;
+
+}
+
+.prvi_box p {
+    color: black;
+}
+
+.sredina div button{
+    position: absolute;
+    right: 10px;
+    top: 10%;
+    width: 60px;
+    border-radius: 10px;
+    height: 27px;
+    border: none;
+}
+
+.prvi_box>div {
+    position: relative;
+
+}

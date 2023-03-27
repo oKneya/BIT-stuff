@@ -1,0 +1,101 @@
+#lista1 {
+    list-style-type: circle;
+   width: fit-content;
+   margin: 0;
+}
+#lista2 {
+    list-style-type: square;
+}
+#lista3 {
+    list-style-type: upper-alpha;
+}
+#lista4 {
+    list-style-type: lower-roman;
+}
+#lista5 {
+    list-style-image: url(./Slike/rsz_zvezdica.png); 
+    width: fit-content;   
+}
+#lista6 {
+    list-style-image: url(./Slike/rsz_zvezdica.png);
+    width:fit-content;
+}
+
+.tablemain img {
+   width: 150px;
+   margin-bottom: 0px; ;
+   
+
+}
+#IMENA {
+    background-color: red;
+    color: white;
+}
+tr:nth-child(2n+1) {
+background-color: rgb(194, 183, 183);
+}
+tr:hover{
+    background-color: darkorange;
+}
+table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+span {
+    color: orange;
+}
+
+td {
+    width: fit-content;
+}
+
+#forma1 {
+ width: 350px;
+ margin :0 auto;
+ text-align: center;
+ background-color: #EEEEEE;
+ padding: 10px;
+
+}
+
+#formGET {
+    width: 350px;
+    margin :0 auto;
+    text-align: center;
+    background-color: #EEEEEE;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;;
+    border-top-right-radius: 0%;
+    
+
+}
+
+h1 {
+    border-bottom: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+button {
+    color: white;
+    background-color: red;
+    width: 250px;
+    height: 20px;
+    
+    
+    border-radius: 5px;
+    border: 1px;
+}
+
+form>input {
+    -webkit-box-shadow: -15px -10px 101px -14px rgba(0,0,0,0.48);
+    -moz-box-shadow: -15px -10px 101px -14px rgba(0,0,0,0.48);
+    box-shadow: -15px -10px 101px -14px rgba(0,0,0,0.48);
+    border-radius: 5px;
+    width: 250px;
+    height: 20px;
+}

@@ -1,0 +1,70 @@
+/*SELEKTORI*/
+
+/*Svi H1 elementi */
+h1 {
+  color: blueviolet;
+  /* Svi P elementi*/
+}
+p {
+  background-color: cyan;
+}
+h2 {
+  color: red;
+}
+/*Svi elementi u tabelama*/
+a,
+ul,
+ol {
+  background-color: rgb(68, 131, 71);
+}
+
+/* (*) svi elementi u body tagu*/
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* *( razmak izmedju DIV i H2)Svi h2 tagovi u sklopu DIV-a */
+
+div h2 {
+  background-color: chartreuse;
+}
+/* ( > ) svi h2 tagovi koji su prvo koleno DIV-a */
+div > h2 {
+  background-color: darkgoldenrod;
+}
+/* svi h2 tagovi koji su direktni potomci od ul koji su direktni potomci od div-a */
+
+div > ul h2 {
+  background-color: deeppink;
+}
+
+/* (.) svi elementi koji imaju klasu bgc-yellow*/
+
+.bgc-yellow {
+  background-color: lawngreen;
+  color: magenta;
+}
+/* svi ul tagovi koji imaju klasu bgc-yellow*/
+ul.bgc-yellow {
+  background-color: orange;
+}
+
+/* promeniti pozadinsku boju a href-a koji se nalazi u okviru ul taga sa klasom .bgc-yellow */
+
+ul.bgc-yellow > li > a {
+  background-color: rgb(255, 7, 7);
+}
+/* svi elementi koji imaju klasu color-green i potomci su elemetra koji ima klasu .bgc-yellow */
+.bgc-yellow .color-green {
+}
+
+/* Prvi element koji ima ID milos*/
+
+#milos {
+  background-color: rgb(219, 40, 40);
+}
+/* H2 tag koji ima ID Milos */
+h2#milos {
+  background-color: blue;
+}

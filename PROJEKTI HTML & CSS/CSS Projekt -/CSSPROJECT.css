@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Golos Text', sans-serif;
+
+}
+
+.header span {
+  color: orange;
+  border: 5px solid gray;
+  border-right: none;
+  padding: 3px;
+}
+
+.header h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.header button {
+  width: 100%;
+  background-color: rgb(60, 108, 238);
+  border: none;
+  padding: 10px;
+  color: white;
+}
+
+.dekoracija .kockica{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 8px;
+  border:1px solid black;
+  transform: rotate(45deg);
+}
+
+.dekoracija span {
+  border-top: 1px solid black;
+  width: 30px;
+}
+
+.dekoracija {
+  display: flex;
+  justify-content:center;
+  padding:10px;
+  align-items: center;
+  
+}
+
+.dekoracija2 span {
+  border-top: 1px solid black;
+  width: 30px;
+}
+
+.dekoracija2 {
+  display: flex;
+  justify-content:center;
+  padding:10px;
+  align-items: center;
+  
+}
+
+.tekstStaKazu h1{
+  font-size: large;
+  text-align: center;
+}
+
+
+.tekstStaKazu .kockica {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 8px;
+  border:1px solid black;
+  transform: rotate(45deg);
+}
+
+.kartica {
+  background-color: rgb(60, 108, 238) ;
+  padding: 20px;
+}
+.ISPODCENTRA3DIVA .komentar1 {
+ display: flex;
+  color: white;
+}
+
+.tekstslike span {
+  border-top: 1px solid black;
+  width: 30px;
+}
+
+.dekoracija3 {
+  display: flex;
+  justify-content:center;
+  padding:10px;
+  align-items: center;
+  
+}
+
+.tekstslike .kockica {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 8px;
+  border:1px solid black;
+  transform: rotate(45deg);
+
+}
+
+
+.slike4 img {
+  width:fit-content;
+}
+.tekstslike h4 {
+  text-align: center;
+}
+
+.kucica1 {
+  background-color: rgb(0, 255, 115);
+
+ 
+}
+.slike4 {
+  margin:10px;
+  width: 40%;
+
+}
+
+.slika4 {
+  display:
+}
+
+.kucica2 {
+  background-color: rgb(255, 0, 128);  
+  padding: 10px;
+  margin: 10px;
+}
+
+.kucica3 {
+  background-color: rgb(71, 71, 231);  
+  padding: 10px;
+  margin: 10px;
+}
+
+.kucica4 {
+  background-color: rgb(93, 166, 250);
+  padding: 10px;
+  margin: 10px;
+}
+
+.kucica4 img {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+.ISPODCENTRA3DIVA img {
+  width: 50px;
+  border-radius: 50px;
+  border: 2px solid rgb(60, 108, 238);
+  outline: 2px solid ;
+}
+
+.ISPODCENTRA3DIVA .kartica{
+  margin: 12px;
+}
+
+.ISPODCENTRA3DIVA p{
+  color: white;
+}
+
+.ISPODCENTRA3DIVA h4{
+  color: black;
+}
+
+.ISPODCENTRA3DIVA .zvezdice {
+  margin-left: 13px;
+}
+
+.middle{
+margin: 20px;
+}
+
+.text1 {
+  padding: 10px;
+}
+.middle_uppertext{
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+}
+
+.middle_uppertext h1 {
+  font-size:medium;
+  padding-top:20px;
+  
+}
+
+.middle ul{
+  list-style-type: none;
+  list-style-image: url(./assets/images/arrow_bullet.png);
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.middle p {
+  margin:15px
+}
+
+.text1 h3{
+  margin:15px;
+  color:rgb(60, 108, 238)
+}
+
+.text2 h3{
+  margin:15px;
+  color:rgb(60, 108, 238);
+}
+
+.text2 ul{
+  list-style-type: none;
+  list-style-image: url(./assets/images/arrow_bullet.png);
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.text2 {
+  padding: 10px;
+  margin:20px;
+}
+
+
+.img_main {
+  margin-top: 10px;
+  background-image: url("./assets/images/banner3.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0 ;
+}
+.img_main h1 {
+  color: white;
+  font-size: 20px;
+}
+.img_main button {
+  width: 100px;
+  border-radius: 20px;
+  color: white;
+}
+
+.middle_img img {
+  width: 100%;
+  padding: 10px;
+}
+
+
+.subheader {
+    margin: 18px;
+    color: rgb(104, 104, 104);
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    background-image: url("./assets/images/banner3.jpg");
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .buttons {
+    display: flex;
+    
+  }
+  .buttons button {
+    background-color: transparent;
+    color: white;
+    width: auto;
+  }
+  .img_main {
+    background-image: none;
+  }
+.subheader {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.CENTAR3DIVA {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  
+}
+.middle {
+  width: 40%;
+}
+
+.middle_img{
+  width: 50%;
+}
+
+.text2 {
+  width: 50%;
+
+}
+
+.middle_uppertext h1{
+  font-size: large;
+}
+.dekoracija span {
+  width: 42px;
+}
+
+ .ISPODCENTRA3DIVA {
+  flex-wrap: wrap;
+  display: flex;
+ }
+.kartica {
+  width: 45%;
+}
+
+.tekstStaKazu {
+  width: 100%;
+}
+
+} 
+
+ @media screen and (min-width: 1200px) {
+    .img_main h1 {
+        font-size: 40px;
+    }
+    .img_main {
+        padding : 250px 0;
+    }
+    .middle {
+      width: 30%;
+    }
+    
+    .middle_img{
+      width: 32%;
+    }
+    
+    .text2 {
+      width: 30%;
+    
+    }
+   .CENTAR3DIVA{
+    padding: 0 10%
+   }
+   .middle_uppertext h1{
+    font-size:xx-large;
+   }
+   .dekoracija span{
+    width: 85px;
+   }
+   
+   .ISPODCENTRA3DIVA {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+   }
+  .kartica {
+    width: 30%;
+   
+  }
+  
+  .tekstStaKazu {
+    width: 100%;
+  }
+   
+  }  

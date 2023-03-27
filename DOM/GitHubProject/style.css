@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    min-height: 100vh;
+    background-color: #24292f;
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    
+  }
+  
+  header {
+    padding: 20px 50px;
+    background-color: white;
+    color: #24292f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:#0f9fb3 5px solid ;
+    border-bottom: 2px;
+  }
+  
+  header h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  
+  header button {
+    padding: 5px 20px;
+    background-color: #3fb950;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 8px 0px 8px 0px;
+  }
+  
+  header input {
+    padding: 5px 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #24292f;
+    margin-right: 20px;
+  }
+  
+  main {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    gap: 15px;
+    border: #0f9fb3 5px solid;
+    text-align: center;
+
+  }
+
+main img {
+    width: 120px;
+}
+
+.classImg {
+    border-radius: 25px;
+    border: rgb(236, 222, 14) 2px solid;
+}
+
+.classCard {
+    border: #3fb950 2px solid;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
+}
+
+main svg {
+  width: 20px;
+}
